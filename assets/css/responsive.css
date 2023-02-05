@@ -1,0 +1,41 @@
+
+/* mobile */
+@media only screen and (max-width: 739px) {
+    #container {
+        width: 90%;
+        height: 70vh;
+      }
+    
+      .musicPlayInfo {
+        text-align: center;
+      }
+    
+      .musicPlayTheme__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .durationPlaying, .funcBtn, .playFuncBtn {
+        margin-top: 20px;
+      }
+    
+      .prevBlock, .nextBlock {
+        display: none;
+      }
+}
+
+/* tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    /* #container {
+        height: 100vh;
+    }
+    .musicPlayTheme {
+        flex-direction: column;
+    } */
+}
+
+/* pc */
+@media only screen and (min-width: 1024px) {
+    
+}
